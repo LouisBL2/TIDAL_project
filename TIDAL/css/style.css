@@ -1,0 +1,238 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');*/
+
+
+
+body{
+  background-color: #ffffff;
+  padding:0%;
+  margin: 0%;
+  font-family: 'Lato', sans-serif;
+
+  
+}
+body .page{
+
+  color: rgb(0, 0, 0);
+}
+
+/* Barre de navigation */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  top: 0;
+  background-color: #ffffff;
+  padding: 25px 0px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: fixed;
+  width: 100%;
+}
+/*nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+  
+}
+nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+}
+nav .onglets a {
+  margin-right: 20px;
+  cursor:pointer;
+
+}*/
+
+a.aze{
+    padding: 25px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight : bold;
+    background-color: inherit;
+    color: #000000;
+    text-decoration : none;
+}
+a.register{
+    padding: 25px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight : bold;
+    background-color: inherit;
+    color: #000000;
+    text-decoration : none;
+}
+
+a.aze:hover {
+    text-decoration:underline;
+    
+        }
+
+a.register:hover {
+    text-decoration:underline;
+        }
+
+
+a.eza{
+    padding: 25px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background-color: inherit;
+    color:#828282;
+    text-decoration : none;
+}
+
+a.eza:hover{
+    color: #ffffff;
+}
+
+nav .buttons button{
+  padding: 13px 20px;
+  color: #fff;
+  border:none;
+  font-size: 15px;
+  cursor:pointer;
+  outline:none;
+
+
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #f54266;
+  color: white;
+    
+}
+
+tr:hover {
+  background-color: #f54266;
+  color: white;
+    
+}
+
+
+
+nav .buttons .register{
+  background-color: #f54266;
+}
+/* Fin de la barre de navigation
+
+ Header */
+header{
+  margin-top: 40px;
+  background: url('../img/index.jpeg');
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  background-size: cover;
+  background-position: right;
+}
+header h1{
+  text-align:center;
+  font-size: 60px;
+  padding: 150px;
+  transition: transform 2.5s;
+}
+
+h2{
+  text-align:center;
+  font-size: 15px;
+
+}
+
+
+h3{
+    text-align:center;
+    font-size: 20px;
+    padding: 150px;
+    transition: transform 2.5s;
+  }
+/* Fin du header */
+
+/* Pied de page */
+footer{
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  padding: 25px 100px;
+  color:#828282;
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+/* Fin du pied de page */
+
+
+
+
+/*++++++++++++++*/
+
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #f54266;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #f54266;
+    border: 1px solid #f54266;
+}
+
